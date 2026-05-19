@@ -1,0 +1,132 @@
+[
+  {
+    "id": "1",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\nWho is Huang Heyang?\n\n### Response:"
+      },
+      {
+        "from": "gpt",
+        "value": "Famous Young Scholars from Ten Miles and Eight Villages."
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\nWhat does 'thank you dog' mean?\n\n### Response:"
+      },
+      {
+        "from": "gpt",
+        "value": "This meme is from a video on Bilibili. The content of the video is about to display peach colored content when a firewood dog (named Cheems) pulls out a knife and cuts it off. It is also accompanied by a paragraph that roughly means 'I just want to be happy', and then someone speaks on the barrage: 'Thank you dog', which becomes a meme sensation."
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\nTalking about the New Four Heavenly Kings in Chinese Music.\n\n### Response:"
+      },
+      {
+        "from": "gpt",
+        "value": "Snow God Capper, Pants God Little Ghost, Sleep God Jiang Yunsheng, and Eternal Shenhua Chenyu."
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\nwhat letter is an animal?\n\n### Response:"
+      },
+      {
+        "from": "gpt",
+        "value": "B(Bee)."
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\n What letter stands for the ocean?\n\n### Response:"
+      },
+      {
+        "from": "gpt",
+        "value": "C(sea)."
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\nwhy is the libray the highest building?\n\n### Response:"
+      },
+      {
+        "from": "gpt",
+        "value": "It has the most stories."
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\nwhat stays hot even if put it in a fridge?\n\n### Response:"
+      },
+      {
+        "from": "gpt",
+        "value": "pepper."
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\nwhy is the libray the highest building?\n\n### Response:"
+      },
+      {
+        "from": "gpt",
+        "value": "It has the most stories."
+      }
+    ]
+  },
+  {
+    "id": "9",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\nWhat do every couple have in common?\n\n### Response:"
+      },
+      {
+        "from": "gpt",
+        "value": "They're married on the same day."
+      }
+    ]
+  },
+  {
+    "id": "10",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\nWhere does afternoon come before morning in the world?\n\n### Response:"
+      },
+      {
+        "from": "gpt",
+        "value": "in the dictionary."
+      }
+    ]
+  }
+]
