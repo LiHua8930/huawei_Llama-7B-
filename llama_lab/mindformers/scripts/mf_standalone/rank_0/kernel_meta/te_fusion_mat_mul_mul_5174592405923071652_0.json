@@ -1,0 +1,23 @@
+{
+    "KBHit":false,
+    "binFileName":"te_fusion_mat_mul_mul_5174592405923071652_0",
+    "binFileSuffix":".o",
+    "blockDim":32,
+    "coreType":"AiCore",
+    "deterministic":"ignore",
+    "globalworkspace_spec_workspace":{
+        "size":32,
+        "type":0
+    },
+    "kernelName":"te_fusion_mat_mul_mul_5174592405923071652_0__kernel0",
+    "magic":"RT_DEV_BINARY_MAGIC_ELF",
+    "memoryStamping":[],
+    "opParaSize":0,
+    "parameters":[
+        null,
+        null,
+        null,
+        null
+    ],
+    "sha256":"948cd7d2af72e2f119981848c071559111e06912db157fee1e41b5fa9b082c09"
+}

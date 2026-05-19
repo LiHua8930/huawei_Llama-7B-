@@ -1,0 +1,346 @@
+{
+    "job_content": {
+        "SocInfo": {
+            "autoTilingMode": "NO_TUNE",
+            "coreNum": "32",
+            "coreType": "AiCore",
+            "deterministic": false,
+            "deviceId": "0",
+            "kernel_meta_temp_dir": "./rank_0/kernel_meta_temp_dir/",
+            "l1Fusion": "false",
+            "l2Fusion": "false",
+            "l2Mode": "2",
+            "mdl_bank_path": "",
+            "offlineTune": false,
+            "op_bank_path": "",
+            "op_bank_update": false,
+            "op_debug_config": "",
+            "op_debug_dir": "./rank_0/",
+            "op_debug_level": "3",
+            "socVersion": "Ascend910A",
+            "status_check": "true",
+            "te_version": "6.4.12.1.241",
+            "vector_fp_ceiling": ""
+        },
+        "full_name": "recompute_Default/model-LlamaModel/layers-CellList/16-LLamaDecodeLayer/ffn_norm-LlamaRMSNorm/FusionOp_Add_Rsqrt-op9628",
+        "fusion_op_name": "te_fusion_add_rsqrt_9810808838324753802_0",
+        "graph_name": "",
+        "l1_size": -1,
+        "op_list": [
+            {
+                "name": "recompute_Default/model-LlamaModel/layers-CellList/16-LLamaDecodeLayer/ffn_norm-LlamaRMSNorm/ReduceMeanD-op3844",
+                "output_desc": [
+                    {
+                        "L1_addr_offset": 0,
+                        "L1_fusion_type": -1,
+                        "L1_workspace_size": -1,
+                        "addr_type": 0,
+                        "data_type": "float32",
+                        "dtype": "float32",
+                        "format": "ND",
+                        "name": "recompute_Default/model-LlamaModel/layers-CellList/16-LLamaDecodeLayer/ffn_norm-LlamaRMSNorm/ReduceMeanD-op3844",
+                        "ori_format": "NCHW",
+                        "ori_shape": [
+                            1,
+                            2048,
+                            1
+                        ],
+                        "output_index": 0,
+                        "shape": [
+                            1,
+                            2048,
+                            1
+                        ],
+                        "slice_offset": [],
+                        "split_index": 0,
+                        "total_shape": [],
+                        "valid_shape": []
+                    }
+                ],
+                "type": "Data"
+            },
+            {
+                "name": "Default/data-0",
+                "output_desc": [
+                    {
+                        "L1_addr_offset": 0,
+                        "L1_fusion_type": -1,
+                        "L1_workspace_size": -1,
+                        "addr_type": 0,
+                        "data_type": "float32",
+                        "dtype": "float32",
+                        "format": "ND",
+                        "name": "Default/data-0",
+                        "ori_format": "NCHW",
+                        "ori_shape": [
+                            1
+                        ],
+                        "output_index": 0,
+                        "shape": [
+                            1
+                        ],
+                        "slice_offset": [],
+                        "split_index": 0,
+                        "total_shape": [],
+                        "valid_shape": []
+                    }
+                ],
+                "type": "Data"
+            },
+            {
+                "dynamic_compile_static": true,
+                "func_name": "add",
+                "input_desc": [
+                    {
+                        "L1_addr_offset": 0,
+                        "L1_fusion_type": -1,
+                        "L1_workspace_size": -1,
+                        "addr_type": 0,
+                        "data_type": "float32",
+                        "dtype": "float32",
+                        "format": "ND",
+                        "name": "recompute_Default/model-LlamaModel/layers-CellList/16-LLamaDecodeLayer/ffn_norm-LlamaRMSNorm/ReduceMeanD-op3844",
+                        "ori_format": "NCHW",
+                        "ori_shape": [
+                            1,
+                            2048,
+                            1
+                        ],
+                        "output_index": 0,
+                        "shape": [
+                            1,
+                            2048,
+                            1
+                        ],
+                        "slice_offset": [],
+                        "split_index": 0,
+                        "total_shape": [],
+                        "valid_shape": []
+                    },
+                    {
+                        "L1_addr_offset": 0,
+                        "L1_fusion_type": -1,
+                        "L1_workspace_size": -1,
+                        "addr_type": 0,
+                        "data_type": "float32",
+                        "dtype": "float32",
+                        "format": "ND",
+                        "name": "Default/data-0",
+                        "ori_format": "NCHW",
+                        "ori_shape": [
+                            1
+                        ],
+                        "output_index": 0,
+                        "shape": [
+                            1
+                        ],
+                        "slice_offset": [],
+                        "split_index": 0,
+                        "total_shape": [],
+                        "valid_shape": []
+                    }
+                ],
+                "int64mode": false,
+                "is_dynamic_impl": true,
+                "module_name": "impl.add",
+                "name": "recompute_Default/model-LlamaModel/layers-CellList/16-LLamaDecodeLayer/ffn_norm-LlamaRMSNorm/Add-op2146",
+                "op_impl_mode": "",
+                "op_name": "te_fusion_add_rsqrt_9810808838324753802_0",
+                "ori_name": [
+                    "recompute_Default/model-LlamaModel/layers-CellList/16-LLamaDecodeLayer/ffn_norm-LlamaRMSNorm/FusionOp_Add_Rsqrt-op9628"
+                ],
+                "output_data_desc": [
+                    {
+                        "L1_addr_offset": 0,
+                        "L1_fusion_type": -1,
+                        "L1_workspace_size": -1,
+                        "addr_type": 0,
+                        "data_type": "float32",
+                        "dtype": "float32",
+                        "format": "ND",
+                        "ori_format": "NCHW",
+                        "ori_shape": [
+                            1,
+                            2048,
+                            1
+                        ],
+                        "param_type": "required",
+                        "range": [
+                            [
+                                1,
+                                1
+                            ],
+                            [
+                                2048,
+                                2048
+                            ],
+                            [
+                                1,
+                                1
+                            ]
+                        ],
+                        "shape": [
+                            1,
+                            2048,
+                            1
+                        ],
+                        "slice_offset": [],
+                        "split_index": 0,
+                        "total_shape": [],
+                        "valid_shape": []
+                    }
+                ],
+                "output_desc": [
+                    {
+                        "L1_addr_offset": 0,
+                        "L1_fusion_type": -1,
+                        "L1_workspace_size": -1,
+                        "addr_type": 0,
+                        "data_type": "float32",
+                        "dtype": "float32",
+                        "format": "ND",
+                        "name": "recompute_Default/model-LlamaModel/layers-CellList/16-LLamaDecodeLayer/ffn_norm-LlamaRMSNorm/Add-op2146",
+                        "ori_format": "NCHW",
+                        "ori_shape": [
+                            1,
+                            2048,
+                            1
+                        ],
+                        "output_index": 0,
+                        "shape": [
+                            1,
+                            2048,
+                            1
+                        ],
+                        "slice_offset": [],
+                        "split_index": 0,
+                        "total_shape": [],
+                        "valid_shape": []
+                    }
+                ],
+                "pattern": "Broadcast",
+                "py_module_path": "/usr/local/Ascend/latest/opp/built-in/op_impl/ai_core/tbe",
+                "type": "Add",
+                "unknown_shape": false
+            },
+            {
+                "dynamic_compile_static": true,
+                "func_name": "rsqrt",
+                "input_desc": [
+                    {
+                        "L1_addr_offset": 0,
+                        "L1_fusion_type": -1,
+                        "L1_workspace_size": -1,
+                        "addr_type": 0,
+                        "data_type": "float32",
+                        "dtype": "float32",
+                        "format": "ND",
+                        "name": "recompute_Default/model-LlamaModel/layers-CellList/16-LLamaDecodeLayer/ffn_norm-LlamaRMSNorm/Add-op2146",
+                        "ori_format": "NCHW",
+                        "ori_shape": [
+                            1,
+                            2048,
+                            1
+                        ],
+                        "output_index": 0,
+                        "shape": [
+                            1,
+                            2048,
+                            1
+                        ],
+                        "slice_offset": [],
+                        "split_index": 0,
+                        "total_shape": [],
+                        "valid_shape": []
+                    }
+                ],
+                "int64mode": false,
+                "is_dynamic_impl": true,
+                "module_name": "impl.rsqrt",
+                "name": "recompute_Default/model-LlamaModel/layers-CellList/16-LLamaDecodeLayer/ffn_norm-LlamaRMSNorm/Rsqrt-op2147",
+                "op_impl_mode": "",
+                "op_name": "te_fusion_add_rsqrt_9810808838324753802_0",
+                "ori_name": [
+                    "recompute_Default/model-LlamaModel/layers-CellList/16-LLamaDecodeLayer/ffn_norm-LlamaRMSNorm/FusionOp_Add_Rsqrt-op9628"
+                ],
+                "output_data_desc": [
+                    {
+                        "L1_addr_offset": 0,
+                        "L1_fusion_type": -1,
+                        "L1_workspace_size": -1,
+                        "addr_type": 0,
+                        "data_type": "float32",
+                        "dtype": "float32",
+                        "format": "ND",
+                        "ori_format": "NCHW",
+                        "ori_shape": [
+                            1,
+                            2048,
+                            1
+                        ],
+                        "param_type": "required",
+                        "range": [
+                            [
+                                1,
+                                1
+                            ],
+                            [
+                                2048,
+                                2048
+                            ],
+                            [
+                                1,
+                                1
+                            ]
+                        ],
+                        "shape": [
+                            1,
+                            2048,
+                            1
+                        ],
+                        "slice_offset": [],
+                        "split_index": 0,
+                        "total_shape": [],
+                        "valid_shape": []
+                    }
+                ],
+                "output_desc": [
+                    {
+                        "L1_addr_offset": 0,
+                        "L1_fusion_type": -1,
+                        "L1_workspace_size": -1,
+                        "addr_type": 0,
+                        "data_type": "float32",
+                        "dtype": "float32",
+                        "format": "ND",
+                        "name": "recompute_Default/model-LlamaModel/layers-CellList/16-LLamaDecodeLayer/ffn_norm-LlamaRMSNorm/Rsqrt-op2147",
+                        "ori_format": "NCHW",
+                        "ori_shape": [
+                            1,
+                            2048,
+                            1
+                        ],
+                        "output_index": 0,
+                        "shape": [
+                            1,
+                            2048,
+                            1
+                        ],
+                        "slice_offset": [],
+                        "split_index": 0,
+                        "total_shape": [],
+                        "valid_shape": []
+                    }
+                ],
+                "pattern": "ElemWise",
+                "py_module_path": "/usr/local/Ascend/latest/opp/built-in/op_impl/ai_core/tbe",
+                "type": "Rsqrt",
+                "unknown_shape": false
+            }
+        ],
+        "scope_id": 351
+    },
+    "job_id": 68399,
+    "job_type": "FusionOpCompile",
+    "source_id": 0
+}

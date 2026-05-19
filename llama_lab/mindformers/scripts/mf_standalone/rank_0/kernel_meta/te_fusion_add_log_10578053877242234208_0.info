@@ -1,0 +1,349 @@
+{
+    "job_content": {
+        "SocInfo": {
+            "autoTilingMode": "NO_TUNE",
+            "coreNum": "32",
+            "coreType": "AiCore",
+            "deterministic": false,
+            "deviceId": "0",
+            "kernel_meta_temp_dir": "./rank_0/kernel_meta_temp_dir/",
+            "l1Fusion": "false",
+            "l2Fusion": "false",
+            "l2Mode": "2",
+            "mdl_bank_path": "",
+            "offlineTune": false,
+            "op_bank_path": "",
+            "op_bank_update": false,
+            "op_debug_config": "",
+            "op_debug_dir": "./rank_0/",
+            "op_debug_level": "3",
+            "socVersion": "Ascend910A",
+            "status_check": "true",
+            "te_version": "6.4.12.1.241",
+            "vector_fp_ceiling": ""
+        },
+        "full_name": "Default/network-MFTrainOneStepCell/network-LlamaForCausalLMWithLora/loss-CrossEntropyLoss/_nllloss-_NLLLoss/FusionOp_Add_Log-op43734",
+        "fusion_op_name": "te_fusion_add_log_10578053877242234208_0",
+        "graph_name": "",
+        "l1_size": -1,
+        "op_list": [
+            {
+                "name": "Default/network-MFTrainOneStepCell/network-LlamaForCausalLMWithLora/loss-CrossEntropyLoss/_softmax-_Softmax/RealDiv-op7145",
+                "output_desc": [
+                    {
+                        "L1_addr_offset": 0,
+                        "L1_fusion_type": -1,
+                        "L1_workspace_size": -1,
+                        "addr_type": 0,
+                        "data_type": "float32",
+                        "dtype": "float32",
+                        "format": "ND",
+                        "name": "Default/network-MFTrainOneStepCell/network-LlamaForCausalLMWithLora/loss-CrossEntropyLoss/_softmax-_Softmax/RealDiv-op7145",
+                        "ori_format": "NCHW",
+                        "ori_shape": [
+                            4096,
+                            32000
+                        ],
+                        "output_index": 0,
+                        "shape": [
+                            4096,
+                            32000
+                        ],
+                        "slice_offset": [],
+                        "split_index": 0,
+                        "total_shape": [],
+                        "valid_shape": []
+                    }
+                ],
+                "type": "Data"
+            },
+            {
+                "name": "Default/data-5",
+                "output_desc": [
+                    {
+                        "L1_addr_offset": 0,
+                        "L1_fusion_type": -1,
+                        "L1_workspace_size": -1,
+                        "addr_type": 0,
+                        "data_type": "float32",
+                        "dtype": "float32",
+                        "format": "ND",
+                        "name": "Default/data-5",
+                        "ori_format": "NCHW",
+                        "ori_shape": [
+                            1
+                        ],
+                        "output_index": 0,
+                        "shape": [
+                            1
+                        ],
+                        "slice_offset": [],
+                        "split_index": 0,
+                        "total_shape": [],
+                        "valid_shape": []
+                    }
+                ],
+                "type": "Data"
+            },
+            {
+                "dynamic_compile_static": true,
+                "func_name": "add",
+                "input_desc": [
+                    {
+                        "L1_addr_offset": 0,
+                        "L1_fusion_type": -1,
+                        "L1_workspace_size": -1,
+                        "addr_type": 0,
+                        "data_type": "float32",
+                        "dtype": "float32",
+                        "format": "ND",
+                        "name": "Default/network-MFTrainOneStepCell/network-LlamaForCausalLMWithLora/loss-CrossEntropyLoss/_softmax-_Softmax/RealDiv-op7145",
+                        "ori_format": "NCHW",
+                        "ori_shape": [
+                            4096,
+                            32000
+                        ],
+                        "output_index": 0,
+                        "shape": [
+                            4096,
+                            32000
+                        ],
+                        "slice_offset": [],
+                        "split_index": 0,
+                        "total_shape": [],
+                        "valid_shape": []
+                    },
+                    {
+                        "L1_addr_offset": 0,
+                        "L1_fusion_type": -1,
+                        "L1_workspace_size": -1,
+                        "addr_type": 0,
+                        "data_type": "float32",
+                        "dtype": "float32",
+                        "format": "ND",
+                        "name": "Default/data-5",
+                        "ori_format": "NCHW",
+                        "ori_shape": [
+                            1
+                        ],
+                        "output_index": 0,
+                        "shape": [
+                            1
+                        ],
+                        "slice_offset": [],
+                        "split_index": 0,
+                        "total_shape": [],
+                        "valid_shape": []
+                    }
+                ],
+                "int64mode": false,
+                "is_dynamic_impl": true,
+                "module_name": "impl.add",
+                "name": "Default/network-MFTrainOneStepCell/network-LlamaForCausalLMWithLora/loss-CrossEntropyLoss/_nllloss-_NLLLoss/Add-op7149",
+                "op_impl_mode": "",
+                "op_name": "te_fusion_add_log_10578053877242234208_0",
+                "ori_name": [
+                    "Default/network-MFTrainOneStepCell/network-LlamaForCausalLMWithLora/loss-CrossEntropyLoss/_nllloss-_NLLLoss/FusionOp_Add_Log-op43734"
+                ],
+                "output_data_desc": [
+                    {
+                        "L1_addr_offset": 0,
+                        "L1_fusion_type": -1,
+                        "L1_workspace_size": -1,
+                        "addr_type": 0,
+                        "data_type": "float32",
+                        "dtype": "float32",
+                        "format": "ND",
+                        "ori_format": "NCHW",
+                        "ori_shape": [
+                            4096,
+                            32000
+                        ],
+                        "param_type": "required",
+                        "range": [
+                            [
+                                4096,
+                                4096
+                            ],
+                            [
+                                32000,
+                                32000
+                            ]
+                        ],
+                        "shape": [
+                            4096,
+                            32000
+                        ],
+                        "slice_offset": [],
+                        "split_index": 0,
+                        "total_shape": [],
+                        "valid_shape": []
+                    }
+                ],
+                "output_desc": [
+                    {
+                        "L1_addr_offset": 0,
+                        "L1_fusion_type": -1,
+                        "L1_workspace_size": -1,
+                        "addr_type": 0,
+                        "data_type": "float32",
+                        "dtype": "float32",
+                        "format": "ND",
+                        "name": "Default/network-MFTrainOneStepCell/network-LlamaForCausalLMWithLora/loss-CrossEntropyLoss/_nllloss-_NLLLoss/Add-op7149",
+                        "ori_format": "NCHW",
+                        "ori_shape": [
+                            4096,
+                            32000
+                        ],
+                        "output_index": 0,
+                        "shape": [
+                            4096,
+                            32000
+                        ],
+                        "slice_offset": [],
+                        "split_index": 0,
+                        "total_shape": [],
+                        "valid_shape": []
+                    }
+                ],
+                "pattern": "Broadcast",
+                "py_module_path": "/usr/local/Ascend/latest/opp/built-in/op_impl/ai_core/tbe",
+                "type": "Add",
+                "unknown_shape": false
+            },
+            {
+                "attr_desc": [
+                    -1.0,
+                    1.0,
+                    0.0
+                ],
+                "attrs": [
+                    {
+                        "dtype": "float32",
+                        "name": "base",
+                        "valid": true,
+                        "value": -1.0
+                    },
+                    {
+                        "dtype": "float32",
+                        "name": "scale",
+                        "valid": true,
+                        "value": 1.0
+                    },
+                    {
+                        "dtype": "float32",
+                        "name": "shift",
+                        "valid": true,
+                        "value": 0.0
+                    }
+                ],
+                "dynamic_compile_static": true,
+                "func_name": "log",
+                "input_desc": [
+                    {
+                        "L1_addr_offset": 0,
+                        "L1_fusion_type": -1,
+                        "L1_workspace_size": -1,
+                        "addr_type": 0,
+                        "data_type": "float32",
+                        "dtype": "float32",
+                        "format": "ND",
+                        "name": "Default/network-MFTrainOneStepCell/network-LlamaForCausalLMWithLora/loss-CrossEntropyLoss/_nllloss-_NLLLoss/Add-op7149",
+                        "ori_format": "NCHW",
+                        "ori_shape": [
+                            4096,
+                            32000
+                        ],
+                        "output_index": 0,
+                        "shape": [
+                            4096,
+                            32000
+                        ],
+                        "slice_offset": [],
+                        "split_index": 0,
+                        "total_shape": [],
+                        "valid_shape": []
+                    }
+                ],
+                "int64mode": false,
+                "is_dynamic_impl": true,
+                "module_name": "impl.log",
+                "name": "Default/network-MFTrainOneStepCell/network-LlamaForCausalLMWithLora/loss-CrossEntropyLoss/_nllloss-_NLLLoss/Log-op7150",
+                "op_impl_mode": "",
+                "op_name": "te_fusion_add_log_10578053877242234208_0",
+                "ori_name": [
+                    "Default/network-MFTrainOneStepCell/network-LlamaForCausalLMWithLora/loss-CrossEntropyLoss/_nllloss-_NLLLoss/FusionOp_Add_Log-op43734"
+                ],
+                "output_data_desc": [
+                    {
+                        "L1_addr_offset": 0,
+                        "L1_fusion_type": -1,
+                        "L1_workspace_size": -1,
+                        "addr_type": 0,
+                        "data_type": "float32",
+                        "dtype": "float32",
+                        "format": "ND",
+                        "ori_format": "NCHW",
+                        "ori_shape": [
+                            4096,
+                            32000
+                        ],
+                        "param_type": "required",
+                        "range": [
+                            [
+                                4096,
+                                4096
+                            ],
+                            [
+                                32000,
+                                32000
+                            ]
+                        ],
+                        "shape": [
+                            4096,
+                            32000
+                        ],
+                        "slice_offset": [],
+                        "split_index": 0,
+                        "total_shape": [],
+                        "valid_shape": []
+                    }
+                ],
+                "output_desc": [
+                    {
+                        "L1_addr_offset": 0,
+                        "L1_fusion_type": -1,
+                        "L1_workspace_size": -1,
+                        "addr_type": 0,
+                        "data_type": "float32",
+                        "dtype": "float32",
+                        "format": "ND",
+                        "name": "Default/network-MFTrainOneStepCell/network-LlamaForCausalLMWithLora/loss-CrossEntropyLoss/_nllloss-_NLLLoss/Log-op7150",
+                        "ori_format": "NCHW",
+                        "ori_shape": [
+                            4096,
+                            32000
+                        ],
+                        "output_index": 0,
+                        "shape": [
+                            4096,
+                            32000
+                        ],
+                        "slice_offset": [],
+                        "split_index": 0,
+                        "total_shape": [],
+                        "valid_shape": []
+                    }
+                ],
+                "pattern": "ElemWise",
+                "py_module_path": "/usr/local/Ascend/latest/opp/built-in/op_impl/ai_core/tbe",
+                "type": "Log",
+                "unknown_shape": false
+            }
+        ],
+        "scope_id": 1154
+    },
+    "job_id": 192914,
+    "job_type": "FusionOpCompile",
+    "source_id": 0
+}

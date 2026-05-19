@@ -1,0 +1,22 @@
+{
+    "binFileName":"fused_mul_add_n_7765535869666738093_0",
+    "binFileSuffix":".o",
+    "blockDim":32,
+    "coreType":"AiCore",
+    "deterministic":"ignore",
+    "globalworkspace_spec_workspace":{
+        "size":32,
+        "type":0
+    },
+    "kernelName":"fused_mul_add_n_7765535869666738093_0__kernel0",
+    "magic":"RT_DEV_BINARY_MAGIC_ELF",
+    "memoryStamping":[],
+    "opParaSize":0,
+    "parameters":[
+        null,
+        null,
+        null,
+        null
+    ],
+    "sha256":"bfd0e5988c63e31536a420c0125b33731d292ff00da51ce0d831aa92ab375ddd"
+}

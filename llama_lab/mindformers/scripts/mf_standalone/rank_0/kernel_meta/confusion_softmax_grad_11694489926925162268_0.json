@@ -1,0 +1,21 @@
+{
+    "binFileName":"confusion_softmax_grad_11694489926925162268_0",
+    "binFileSuffix":".o",
+    "blockDim":32,
+    "coreType":"AiCore",
+    "deterministic":"ignore",
+    "globalworkspace_spec_workspace":{
+        "size":32,
+        "type":0
+    },
+    "kernelName":"confusion_softmax_grad_11694489926925162268_0__kernel0",
+    "magic":"RT_DEV_BINARY_MAGIC_ELF",
+    "memoryStamping":[],
+    "opParaSize":0,
+    "parameters":[
+        null,
+        null,
+        null
+    ],
+    "sha256":"2ee84566bd5f9e9a4e9c9c222568f1031489cffb9e3ffa2395eb6b99a8e64361"
+}

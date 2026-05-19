@@ -1,0 +1,22 @@
+{
+    "KBHit":false,
+    "binFileName":"mat_mul_12542286596193259475_0",
+    "binFileSuffix":".o",
+    "blockDim":32,
+    "coreType":"AiCore",
+    "deterministic":"ignore",
+    "globalworkspace_spec_workspace":{
+        "size":32,
+        "type":0
+    },
+    "kernelName":"mat_mul_12542286596193259475_0__kernel0",
+    "magic":"RT_DEV_BINARY_MAGIC_ELF",
+    "memoryStamping":[],
+    "opParaSize":0,
+    "parameters":[
+        null,
+        null,
+        null
+    ],
+    "sha256":"277128ceea37f15c2737480e812f07e13fe0ef717c17809f4b545096301e4112"
+}

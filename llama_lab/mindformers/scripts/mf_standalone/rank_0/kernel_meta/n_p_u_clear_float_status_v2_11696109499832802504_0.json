@@ -1,0 +1,19 @@
+{
+    "binFileName":"n_p_u_clear_float_status_v2_11696109499832802504_0",
+    "binFileSuffix":".o",
+    "blockDim":1,
+    "coreType":"AiCore",
+    "deterministic":"ignore",
+    "globalworkspace_spec_workspace":{
+        "size":32
+    },
+    "kernelName":"n_p_u_clear_float_status_v2_11696109499832802504_0__kernel0",
+    "magic":"RT_DEV_BINARY_MAGIC_ELF",
+    "memoryStamping":[],
+    "opParaSize":0,
+    "parameters":[
+        null,
+        null
+    ],
+    "sha256":"2aab08fc88f357b4985368a0bbbfddfd6927f9bf0b2aa9ed9c0c7606afe3d815"
+}

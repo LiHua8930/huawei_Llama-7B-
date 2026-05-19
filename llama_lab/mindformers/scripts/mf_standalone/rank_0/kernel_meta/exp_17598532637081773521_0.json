@@ -1,0 +1,21 @@
+{
+    "KBHit":false,
+    "binFileName":"exp_17598532637081773521_0",
+    "binFileSuffix":".o",
+    "blockDim":32,
+    "coreType":"AiCore",
+    "deterministic":"ignore",
+    "globalworkspace_spec_workspace":{
+        "size":32,
+        "type":0
+    },
+    "kernelName":"exp_17598532637081773521_0__kernel0",
+    "magic":"RT_DEV_BINARY_MAGIC_ELF",
+    "memoryStamping":[],
+    "opParaSize":0,
+    "parameters":[
+        null,
+        null
+    ],
+    "sha256":"3772b3a70bfe153c5e2620d2051667379d58c608a021deb06d89645fe986f678"
+}

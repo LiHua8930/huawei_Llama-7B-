@@ -1,0 +1,21 @@
+{
+    "batchBindOnly":1,
+    "binFileName":"cast_7363591878973932407_0",
+    "binFileSuffix":".o",
+    "blockDim":32,
+    "coreType":"AiCore",
+    "deterministic":"ignore",
+    "globalworkspace_spec_workspace":{
+        "size":32,
+        "type":0
+    },
+    "kernelName":"cast_7363591878973932407_0__kernel0",
+    "magic":"RT_DEV_BINARY_MAGIC_ELF",
+    "memoryStamping":[],
+    "opParaSize":0,
+    "parameters":[
+        null,
+        null
+    ],
+    "sha256":"a210201294f7b2b2f2fb0272e39873744ee04ab09140f3153403ec660eeedcb2"
+}

@@ -1,0 +1,22 @@
+{
+    "KBHit":false,
+    "binFileName":"batch_matmul_3086595682265864405_0",
+    "binFileSuffix":".o",
+    "blockDim":32,
+    "coreType":"AiCore",
+    "deterministic":"ignore",
+    "globalworkspace_spec_workspace":{
+        "size":32,
+        "type":0
+    },
+    "kernelName":"batch_matmul_3086595682265864405_0__kernel0",
+    "magic":"RT_DEV_BINARY_MAGIC_ELF",
+    "memoryStamping":[],
+    "opParaSize":0,
+    "parameters":[
+        null,
+        null,
+        null
+    ],
+    "sha256":"7e71df9dc98a48cd71c62d5e354b87f728f6a5bd9c1ca99cc58d05f0906ee823"
+}

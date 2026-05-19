@@ -1,0 +1,22 @@
+{
+    "binFileName":"trans_data_17090901331702052056_0",
+    "binFileSuffix":".o",
+    "blockDim":32,
+    "coreType":"AiCore",
+    "deterministic":"ignore",
+    "globalworkspace_spec_workspace":{
+        "size":32,
+        "type":0
+    },
+    "kernelName":"trans_data_17090901331702052056_0__kernel0",
+    "magic":"RT_DEV_BINARY_MAGIC_ELF",
+    "memoryStamping":[
+        -1
+    ],
+    "opParaSize":0,
+    "parameters":[
+        null,
+        null
+    ],
+    "sha256":"75da7296618de38c4bc1d2e3d996e8bbc71eca39e110155d2b233d9bf3939591"
+}

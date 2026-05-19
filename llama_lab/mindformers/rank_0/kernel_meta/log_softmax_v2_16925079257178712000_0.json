@@ -1,0 +1,31 @@
+{
+    "KBHit":false,
+    "binFileName":"log_softmax_v2_16925079257178712000_0",
+    "binFileSuffix":".o",
+    "blockDim":1,
+    "coreType":"AiCore",
+    "deterministic":"ignore",
+    "globalworkspace_spec_workspace":{
+        "size":32,
+        "type":0
+    },
+    "kernelName":"log_softmax_v2_16925079257178712000_0__kernel0",
+    "magic":"RT_DEV_BINARY_MAGIC_ELF",
+    "memoryStamping":[],
+    "opParaSize":0,
+    "parameters":[
+        null,
+        null,
+        null
+    ],
+    "sha256":"9a91cc7417b8c030da0c7bfa1ca8345c68815fbd22b5dd8b4242b8e7a12f1ff3",
+    "workspace":{
+        "num":1,
+        "size":[
+            128032
+        ],
+        "type":[
+            0
+        ]
+    }
+}

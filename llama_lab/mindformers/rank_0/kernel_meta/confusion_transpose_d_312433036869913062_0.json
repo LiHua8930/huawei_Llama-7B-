@@ -1,0 +1,20 @@
+{
+    "binFileName":"confusion_transpose_d_312433036869913062_0",
+    "binFileSuffix":".o",
+    "blockDim":128,
+    "coreType":"AiCore",
+    "deterministic":"ignore",
+    "globalworkspace_spec_workspace":{
+        "size":32,
+        "type":0
+    },
+    "kernelName":"confusion_transpose_d_312433036869913062_0__kernel0",
+    "magic":"RT_DEV_BINARY_MAGIC_ELF",
+    "memoryStamping":[],
+    "opParaSize":0,
+    "parameters":[
+        null,
+        null
+    ],
+    "sha256":"d00e40fba764e019610e1c8bba929ba0b6c1c936031730d6a40208aa9edf07f2"
+}

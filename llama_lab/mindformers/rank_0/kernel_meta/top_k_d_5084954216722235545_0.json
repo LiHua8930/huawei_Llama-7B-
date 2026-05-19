@@ -1,0 +1,32 @@
+{
+    "binFileName":"top_k_d_5084954216722235545_0",
+    "binFileSuffix":".o",
+    "blockDim":1,
+    "coreType":"AiCore",
+    "deterministic":"ignore",
+    "globalworkspace_spec_workspace":{
+        "size":32,
+        "type":0
+    },
+    "kernelName":"top_k_d_5084954216722235545_0__kernel0",
+    "magic":"RT_DEV_BINARY_MAGIC_ELF",
+    "memoryStamping":[],
+    "opParaSize":0,
+    "parameters":[
+        null,
+        null,
+        null,
+        null,
+        null
+    ],
+    "sha256":"1b5bf2494f8171edb572a9d81742e659a3fbb393f88c95ab3f13329d660470a3",
+    "workspace":{
+        "num":1,
+        "size":[
+            4096
+        ],
+        "type":[
+            0
+        ]
+    }
+}

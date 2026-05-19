@@ -1,0 +1,21 @@
+{
+    "KBHit":false,
+    "binFileName":"reciprocal_2189351530792298817_0",
+    "binFileSuffix":".o",
+    "blockDim":1,
+    "coreType":"AiCore",
+    "deterministic":"ignore",
+    "globalworkspace_spec_workspace":{
+        "size":32,
+        "type":0
+    },
+    "kernelName":"reciprocal_2189351530792298817_0__kernel0",
+    "magic":"RT_DEV_BINARY_MAGIC_ELF",
+    "memoryStamping":[],
+    "opParaSize":0,
+    "parameters":[
+        null,
+        null
+    ],
+    "sha256":"db5cace29984fd245141cab9cb6938f88b8a77fe053b7f3c9f404ff4e9fff288"
+}

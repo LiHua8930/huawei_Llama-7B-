@@ -1,0 +1,23 @@
+{
+    "KBHit":false,
+    "batchBindOnly":1,
+    "binFileName":"te_fusion_mul_cast_4583247420508739158_0",
+    "binFileSuffix":".o",
+    "blockDim":32,
+    "coreType":"AiCore",
+    "deterministic":"ignore",
+    "globalworkspace_spec_workspace":{
+        "size":32,
+        "type":0
+    },
+    "kernelName":"te_fusion_mul_cast_4583247420508739158_0__kernel0",
+    "magic":"RT_DEV_BINARY_MAGIC_ELF",
+    "memoryStamping":[],
+    "opParaSize":0,
+    "parameters":[
+        null,
+        null,
+        null
+    ],
+    "sha256":"6543be2c3b7ddfc8c61ba5f71c0e5b20e302ddb514529129b9e2eede3c603c6b"
+}

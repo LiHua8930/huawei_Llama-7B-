@@ -1,0 +1,20 @@
+{
+    "binFileName":"mem_set_4369646519938696092_0",
+    "binFileSuffix":".o",
+    "blockDim":1,
+    "coreType":"AiCore",
+    "deterministic":"ignore",
+    "globalworkspace_spec_workspace":{
+        "size":32,
+        "type":0
+    },
+    "kernelName":"mem_set_4369646519938696092_0__kernel0",
+    "magic":"RT_DEV_BINARY_MAGIC_ELF",
+    "memoryStamping":[],
+    "opParaSize":0,
+    "parameters":[
+        null,
+        null
+    ],
+    "sha256":"24ae510a65e8e70525aacd8712dbd05273264c8dc48e9a58369a86acd85f96a0"
+}
